@@ -18,6 +18,10 @@ a {
     color: #aaaaad;
 }
 
+img{
+    height: 200px;
+}
+
 .header{
     color: #fafafa;
     background-color: #1F2937;
@@ -31,3 +35,25 @@ a {
 .classforthelogo {
     font-size: 40px;
 }
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 100px;
+    color: #fafafa;
+    background-color: #1F2937;
+}
+
+.heroR{
+
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
